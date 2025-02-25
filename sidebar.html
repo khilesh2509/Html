@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+
+
+    <style>
+        body{
+                font-family:monospace;
+                background-color:black;
+                margin:0px;
+        }
+        #sidebar a{
+                position:absolute;
+                left:-95px;
+                width:100px;
+                transition:left 0.2s;
+                border-radius:3px;
+                color:white;
+                text-decoration:none;
+
+        }
+        #sidebar a:hover{
+                left:0px;
+        }
+        #spider{
+            top:20px;
+            box-shadow:0 0 10px red;
+
+            z-index:5;
+        }
+        #captain{
+            top:100px;
+            box-shadow:0 0 10px white;
+            z-index:4;
+
+        }
+        #iron{
+            top:200px;
+            box-shadow:0 0 10px blue;
+            z-index:3;
+
+        }
+        #hulk{
+            top:300px;
+            box-shadow:0 0 10px green;
+            z-index:2;
+
+        }
+        .heading{
+            margin-left:120px;
+            color:whitesmoke;
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="sidebar">
+    <a href="#" id="spider"><img src="https://i.pinimg.com/originals/54/e9/b9/54e9b95e09a70590f3ed18da6a444044.jpg" height="200px" width="100px">Spidermen</a><br>
+    <a href="#" id="captain"><img src="https://i.pinimg.com/originals/14/2c/5f/142c5ff7be07ea802d1dce8ad99ea746.jpg" height="200px" width="100px">Captain America</a><br>
+    <a href="#" id="iron"><img src="https://i.pinimg.com/originals/ea/fd/16/eafd1603d0937a7fe51208013cc84eb2.jpg" height="200px" width="100px">Iron Men</a><br>
+    <a href="#" id="hulk"><img src="https://i.pinimg.com/736x/3e/2f/6a/3e2f6a9ce186fe59b4a7d392e1c96764.jpg" height="200px" width="100px">Hulk</a><br>
+</div>
+
+<div class="heading">
+    <h1>THIS IS SIDEBAR NAVIGATION</h1>
+    <h2>MADE WITH HTML CSS</h2>
+    <p>MARVEL AVENGERS</p>
+
+</div>
+
+</body>
+</html>
